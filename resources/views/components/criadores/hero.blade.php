@@ -4,7 +4,7 @@
         <div class="w-full relative flex flex-col gap-[30px]">
             <div class="w-full flex flex-col items-center relative z-[2] mx-auto font-normal max-md:max-w-full">
                 <h1
-                    class="max-w-[854px] text-5xl font-Kufam text-center text-[#262D3D] mb-[55px] max-md:text-4xl max-md:max-w-full">
+                    class="max-w-[854px] text-5xl font-Kufam text-center text-[#262D3D] mb-[55px] max-md:text-3xl max-md:max-w-full">
                     A ENGAGE conecta criadores e marcas de todo o mundo, facilitando
                     colaborações globais
                 </h1>
