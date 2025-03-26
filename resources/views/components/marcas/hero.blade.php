@@ -11,7 +11,7 @@
                     as marcas e empresas aos <br class="max-md:hidden" /> criadores de conteúdo
                 </div>
                 <div
-                    class="text-[rgba(38,45,61,1)] font-Kufam text-5xl font-normal mt-4 max-md:mx-auto max-md:text-center max-md:text-3xl max-md:order-first">
+                    class="text-[rgba(38,45,61,1)] font-Kufam text-5xl font-normal mt-4 max-md:mx-auto max-md:text-center max-md:text-4xl max-md:order-first">
                     OS <span class="text-[rgba(155,100,243,1)]">45%</span> MAIS
                     CRIATIVOS
                 </div>
