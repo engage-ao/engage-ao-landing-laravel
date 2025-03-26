@@ -8,7 +8,7 @@
             </div>
             <div class="flex justify-center items-center gap-[30px] mt-[47px] max-lg:flex-col">
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[220px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-[507px] border-solid border-[#9B64F3] max-sm:w-full max-sm:h-auto max-sm:rounded-[20px]">
+                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
                     <div class="size-[118px] max-lg:size-[80px] mb-5">
                         <svg class="w-full h-full" viewBox="0 0 139 139" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,7 +35,7 @@
                     </svg>
                 </div>
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[220px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-[507px] border-solid border-[#9B64F3] max-sm:w-full max-sm:h-auto max-sm:rounded-[20px]">
+                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
                     <div class="size-[118px] max-lg:size-[80px] mb-5">
                         <svg class="w-full h-full" viewBox="0 0 133 133" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -62,7 +62,7 @@
                     </svg>
                 </div>
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[220px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3] max-sm:w-full">
+                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
                     <div class="size-[118px] max-lg:size-[80px] mb-5">
                         <svg class="w-full h-full" viewBox="0 0 194 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_793_327)">
@@ -116,7 +116,7 @@
                     </svg>
                 </div>
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[220px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-[507px] border-solid border-[#9B64F3] max-sm:w-full max-sm:h-auto max-sm:rounded-[20px]">
+                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
                     <div class="size-[118px] max-lg:size-[80px] mb-5">
                         <svg class="w-full h-full" viewBox="0 0 118 118" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">

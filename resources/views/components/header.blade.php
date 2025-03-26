@@ -48,15 +48,15 @@
                     X
                 </button>
                 <a href="{{ route('marcas') }}"
-                    class="text-[rgba(96,46,177,1)] font-Kufam font-normal text-sm uppercase">
+                    class="font-Kufam font-normal text-sm uppercase {{ request()->is('marcas') ? 'text-[rgba(96,46,177,1)]' : 'text-black hover:text-[rgba(96,46,177,1)]' }}">
                     PARA MARCAS
                 </a>
                 <a href="{{ route('criadores') }}"
-                    class="font-Kufam text-black font-normal text-sm uppercase hover:text-[rgba(96,46,177,1)]">
+                    class="font-Kufam font-normal text-sm uppercase {{ request()->is('criadores') ? 'text-[rgba(96,46,177,1)]' : 'text-black hover:text-[rgba(96,46,177,1)]' }}">
                     CRIADORES DE CONTEÚDO
                 </a>
                 <a href="{{ route('contactos') }}"
-                    class="font-Kufam text-black font-normal text-sm uppercase hover:text-[rgba(96,46,177,1)]">
+                    class="font-Kufam font-normal text-sm uppercase {{ request()->is('contactos') ? 'text-[rgba(96,46,177,1)]' : 'text-black hover:text-[rgba(96,46,177,1)]' }}">
                     CONTACTOS
                 </a>
                 <div class="w-full flex flex-col justify-between items-center py-[11px]">
