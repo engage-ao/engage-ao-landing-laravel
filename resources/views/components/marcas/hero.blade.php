@@ -1,5 +1,5 @@
 <div
-    class="bg-[rgba(254,248,255,1)] flex w-full items-stretch flex-wrap justify-between px-[65px] py-[62px] max-md:max-w-full max-md:px-5 max-md:py-10">
+    class="bg-[rgba(254,248,255,1)] flex w-full items-stretch flex-wrap justify-between px-[65px] py-[77px] max-md:max-w-full max-md:px-5 max-md:py-10">
     <div class="container mx-auto flex items-center justify-between">
         <div class="w-full flex flex-col justify-between gap-[30px]">
             <div

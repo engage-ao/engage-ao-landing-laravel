@@ -1,8 +1,8 @@
 <div
-    class="bg-[rgba(254,248,255,1)] flex w-full items-stretch flex-wrap justify-between px-[65px] py-[62px] max-md:max-w-full max-md:px-5 max-md:py-10">
+    class="bg-[rgba(254,248,255,1)] relative flex w-full items-stretch flex-wrap justify-between px-[65px] py-[77px] max-md:max-w-full max-md:px-5 max-md:py-10">
     <div class="container mx-auto flex items-center justify-between">
-        <div class="w-full relative flex flex-col gap-[30px]">
-            <div class="w-full flex flex-col items-center relative z-[2] mx-auto font-normal max-md:max-w-full">
+        <div class="w-full flex flex-col gap-[30px]">
+            <div class="w-full flex flex-col items-center relative z-[3] mx-auto font-normal max-md:max-w-full">
                 <h1
                     class="max-w-[854px] text-5xl font-Kufam text-center text-[#262D3D] mb-[55px] max-md:text-4xl max-md:max-w-full">
                     A ENGAGE conecta criadores e marcas de todo o mundo, facilitando
@@ -36,6 +36,9 @@
                 <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c2b76fbccf391ceebeb8b1edb7a44cd5306fe33"
                     alt="Content" class="w-[164px] h-[202px] object-cover rounded-[30px] max-sm:w-full max-sm:h-auto" />
             </div> --}}
+
         </div>
+
     </div>
+    <x-criadores.grid-image-section />
 </div>
