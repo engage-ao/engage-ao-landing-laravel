@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="w-full flex justify-center mt-[58px] max-md:max-w-full max-md:mt-10">
-            <div class="w-full hidden lg:block bg-amber-100">
+            <div class="w-full hidden lg:block">
                 <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f29934496bbbf91f6bdef6ee27b9d8543507051a"
                     alt="Background" class="w-full h-full object-cover" />
             </div>
@@ -28,22 +28,35 @@
                     Preencha o formulário e estege entre os 25 criadores que terão o
                     privilegio de testar a versão BETA
                 </div>
-                <form class="w-full">
-                    <div class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal mt-[20px]">Nome</div>
-                    <input type="text" placeholder="Digite seu nome"
-                        class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full mt-[10px] px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
-                    <div class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal mt-[15px]">E-mail</div>
-                    <input type="email" placeholder="Digite aqui seu email"
-                        class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full mt-[10px] px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
-                    <div class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal mt-[15px]">
-                        Telefone
+                <form class="w-full" method="POST" action="{{ route('criadores') }}">
+                    @csrf
+                    <div class="flex flex-col items-stretch mt-[20px] gap-[10px]">
+                        <label for="name" class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" value="{{ old('name') }}"
+                            class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
+                        @error('name')
+                            <div class="text-red-500 text-sm">{{ $message }}</div>
+                        @enderror
                     </div>
-                    <div class="flex items-stretch gap-3 text-[15px] mt-[15px]">
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/25240bcf23ad5bb1d502b6dc00eb1f5b4926818e6a8adcf41079aff31eb9aa8a?placeholderIfAbsent=true"
-                            alt="Country code"
-                            class="aspect-[2.44] object-contain w-[110px] shrink-0 max-w-full rounded-[9px]" />
-                        <input type="tel" placeholder="9XX XXX XX"
-                            class="bg-[rgba(217,217,217,0.08)] border max-md:w-full grow shrink-0 basis-0 w-fit px-[13px] py-[17px] rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid text-[rgba(88,88,88,1)]" />
+                    <div class="flex flex-col items-stretch mt-[15px] gap-[10px]">
+                        <label for="email"
+                            class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite aqui seu email"
+                            value="{{ old('email') }}"
+                            class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
+                        @error('email')
+                            <div class="text-red-500 text-sm">{{ $message }}</div>
+                        @enderror
+                    </div>
+                    <div class="flex flex-col items-stretch mt-[15px] gap-[10px]">
+                        <label for="phone"
+                            class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal">Telefone</label>
+                        <input type="hidden" name="country_code" id="country_code" value="{{ old('country_code') }}" />
+                        <input type="tel" id="phone" name="phone" value="{{ old('phone') }}"
+                            class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
+                        @error('phone')
+                            <div class="text-red-500 text-sm">{{ $message }}</div>
+                        @enderror
                     </div>
                     <button type="submit"
                         class="bg-[rgba(125,75,206,1)] w-full mt-[30px] min-h-[63px] font-kufam text-base font-medium text-white rounded-[12px] uppercase text-center cursor-pointer">
@@ -54,3 +67,21 @@
         </div>
     </div>
 </section>
+
+<script>
+    const input = document.querySelector("#phone");
+    const countryCodeInput = document.querySelector("#country_code");
+    const iti = window.intlTelInput(input, {
+        initialCountry: "ao",
+        preferredCountries: ["ao", "br", "pt"],
+        separateDialCode: true,
+        loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/utils.js"),
+    });
+
+    input.addEventListener("change", () => {
+        countryCodeInput.value = iti.getSelectedCountryData().dialCode;
+    });
+
+    // Set initial country code value
+    countryCodeInput.value = iti.getSelectedCountryData().dialCode;
+</script>

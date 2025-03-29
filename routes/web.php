@@ -1,19 +1,17 @@
 <?php
 
+use App\Http\Controllers\BrandController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CreatorController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return redirect()->route('marcas');
 })->name('home');
 
-Route::get('/criadores', function () {
-    return view('criadores');
-})->name('criadores');
+Route::view('/criadores', 'criadores')->name('criadores');
+Route::view('/marcas', 'marcas')->name('marcas');
+Route::view('/contactos', 'contactos')->name('contactos');
 
-Route::get('/marcas', function () {
-    return view('marcas');
-})->name('marcas');
-
-Route::get('/contactos', function () {
-    return view('contactos');
-})->name('contactos');
+Route::post('/criadores', [CreatorController::class, 'store'])->name('criadores');
+Route::post('/marcas', [BrandController::class, 'store'])->name('marcas');
