@@ -13,7 +13,6 @@ class CreatorController extends Controller
 
         Creator::create($validatedData);
 
-        return redirect()->route('criadores')->with('success', 'Creator information submitted successfully!');
-
+        return redirect()->route('thank-you');
     }
 }

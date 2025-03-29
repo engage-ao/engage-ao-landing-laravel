@@ -28,4 +28,19 @@ class CreatorRequest extends FormRequest
             'phone' => 'nullable|string',
         ];
     }
+
+    /**
+     * Get the validation error messages.
+     *
+     * @return array<string, string>
+     */
+    public function messages(): array
+    {
+        return [
+            'name.required' => 'O campo nome é obrigatório.',
+            'email.required' => 'O campo email é obrigatório.',
+            'email.email' => 'O campo email deve ser um endereço de email válido.',
+            'phone.string' => 'O campo telefone deve ser uma string.',
+        ];
+    }
 }

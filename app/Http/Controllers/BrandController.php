@@ -13,6 +13,6 @@ class BrandController extends Controller
 
         Brand::create($validatedData);
 
-        return redirect()->route('marcas')->with('success', 'Brand information submitted successfully!');
+        return redirect()->route('thank-you');
     }
 }
