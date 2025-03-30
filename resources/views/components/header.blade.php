@@ -24,10 +24,6 @@
                 class="font-Kufam text-black font-normal text-sm uppercase {{ request()->is('criadores') ? 'border-b-[2px] border-[rgba(155,100,243,1)] pb-1' : 'hover:border-b-[2px] hover:border-[rgba(155,100,243,1)] hover:pb-1' }}">
                 CRIADORES DE CONTEÚDO
             </a>
-            <a href="{{ route('contactos') }}"
-                class="font-Kufam text-black font-normal text-sm uppercase {{ request()->is('contactos') ? 'border-b-[2px] border-[rgba(155,100,243,1)] pb-1' : 'hover:border-b-[2px] hover:border-[rgba(155,100,243,1)] hover:pb-1' }}">
-                CONTACTOS
-            </a>
         </nav>
         <div class="md:flex hidden text-base font-medium">
             <a href="#formulario"
@@ -54,10 +50,6 @@
                 <a href="{{ route('criadores') }}"
                     class="font-Kufam font-normal text-sm uppercase {{ request()->is('criadores') ? 'text-[rgba(96,46,177,1)]' : 'text-black hover:text-[rgba(96,46,177,1)]' }}">
                     CRIADORES DE CONTEÚDO
-                </a>
-                <a href="{{ route('contactos') }}"
-                    class="font-Kufam font-normal text-sm uppercase {{ request()->is('contactos') ? 'text-[rgba(96,46,177,1)]' : 'text-black hover:text-[rgba(96,46,177,1)]' }}">
-                    CONTACTOS
                 </a>
                 <div class="w-full flex flex-col justify-between items-center py-[11px]">
                     <a href="#formulario"

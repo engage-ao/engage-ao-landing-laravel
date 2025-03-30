@@ -27,7 +27,6 @@
                 <nav class="flex max-md:flex-col gap-[40px_70px] font-Roboto text-sm text-white font-normal">
                     <a href="{{ route('marcas') }}">Para marcas</a>
                     <a href="{{ route('criadores') }}">Criadores de conteúdo</a>
-                    <a href="{{ route('contactos') }}">Contactos</a>
                 </nav>
                 <div class="flex items-center gap-[30px]">
                     <a href="#" aria-label="Social media">
@@ -85,7 +84,6 @@
                 class="flex flex-col items-center justify-center gap-[40px] mt-[50px] font-Roboto text-sm text-white font-normal">
                 <a href="{{ route('marcas') }}">Para marcas</a>
                 <a href="{{ route('criadores') }}">Criadores de conteúdo</a>
-                <a href="{{ route('contactos') }}">Contactos</a>
             </nav>
             <div class="bg-[rgba(205,209,212,1)] flex shrink-0 h-px mt-[50px]"></div>
             <div class="flex items-center justify-center gap-[30px] mt-[50px]">
