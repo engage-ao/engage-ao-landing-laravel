@@ -27,7 +27,7 @@
                     Preencha o formulário e estege entre as 25 marcas que terão o
                     privilegio de testar a versão BETA
                 </div>
-                <form class="w-full" method="POST" action="{{ route('marcas') }}">
+                <form class="w-full" method="POST" action="{{ route('marcas.store') }}">
                     @csrf
                     <div class="flex flex-col items-stretch mt-[20px] gap-[10px]">
                         <label for="name" class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal">Nome</label>
