@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\BrandController;
-use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CreatorController;
 use Illuminate\Support\Facades\Route;
 
