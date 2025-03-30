@@ -14,8 +14,7 @@
         </div>
         <div class="w-full flex justify-center mt-[58px] max-md:max-w-full max-md:mt-10">
             <div class="w-full hidden lg:block">
-                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/36196a1e64b6445ce7e7787a52e12f80f60f7e0cbb05caffa480af4026b8d809?placeholderIfAbsent=true"
-                    alt="Beta testing" class="w-full h-full object-cover" />
+                <img src="{{ asset('assets/Group 42.png') }}" alt="Beta testing" class="w-full h-full object-cover" />
             </div>
             <div
                 class="lg:-ml-10 max-w-md bg-white shadow-[2px_1px_2px_rgba(0,0,0,0.23)] border flex flex-col text-sm font-normal p-10 rounded-2xl border-[rgba(155,100,243,0.66)] border-solid max-md:max-w-full">
