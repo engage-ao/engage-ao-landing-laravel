@@ -58,7 +58,7 @@
                         @enderror
                     </div>
                     <button type="submit"
-                        class="bg-[rgba(125,75,206,1)] w-full mt-[30px] min-h-[63px] font-kufam text-base font-medium text-white rounded-[12px] uppercase text-center cursor-pointer">
+                        class="bg-[rgba(125,75,206,1)] w-full mt-[30px] min-h-[63px] font-Kufam text-base font-medium text-white rounded-[12px] uppercase text-center cursor-pointer hover:bg-[rgba(125,75,206,0.9)] transition-colors">
                         Cadastrar-se
                     </button>
                 </form>

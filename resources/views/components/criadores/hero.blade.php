@@ -14,7 +14,7 @@
                     marcas no mercado
                 </p>
                 <a href="#formulario"
-                    class="bg-[rgba(125,75,206,1)] min-w-[451px] min-h-[63px] max-md:min-w-[243px] max-md:min-h-[68.8px] flex items-center justify-center font-Kufam text-xl font-normal text-white rounded-xl max-md:rounded-2xl uppercase">
+                    class="bg-[rgba(125,75,206,1)] min-w-[451px] min-h-[63px] max-md:min-w-[243px] max-md:min-h-[68.8px] flex items-center justify-center font-Kufam text-xl font-normal text-white rounded-xl max-md:rounded-2xl uppercase hover:bg-[rgba(125,75,206,0.9)] transition-colors">
                     CADASTRAR-SE
                 </a>
             </div>

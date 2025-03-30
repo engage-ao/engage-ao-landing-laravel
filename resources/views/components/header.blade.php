@@ -31,7 +31,7 @@
         </nav>
         <div class="md:flex hidden text-base font-medium">
             <a href="#formulario"
-                class="bg-[rgba(125,75,206,1)] min-h-[43px] flex items-center justify-center min-w-[147px] font-kufam text-base font-medium text-white rounded-[9px] uppercase text-center">
+                class="bg-[rgba(125,75,206,1)] min-h-[43px] flex items-center justify-center min-w-[147px] font-Kufam text-base font-medium text-white rounded-[9px] uppercase text-center hover:bg-[rgba(125,75,206,0.9)] transition-colors">
                 FORMULÁRIO
             </a>
         </div>
@@ -61,7 +61,7 @@
                 </a>
                 <div class="w-full flex flex-col justify-between items-center py-[11px]">
                     <a href="#formulario"
-                        class="bg-[rgba(125,75,206,1)] w-full min-h-[43px] flex items-center justify-center font-Kufam text-base font-medium text-white rounded-[9px] uppercase text-center">
+                        class="bg-[rgba(125,75,206,1)] w-full min-h-[43px] flex items-center justify-center font-Kufam text-base font-medium text-white rounded-[9px] uppercase text-center hover:bg-[rgba(125,75,206,0.9)] transition-colors">
                         FORMULÁRIO
                     </a>
                 </div>
