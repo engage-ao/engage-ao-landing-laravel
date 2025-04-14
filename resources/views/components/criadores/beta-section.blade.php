@@ -19,13 +19,10 @@
             <div
                 class="lg:-ml-10 max-w-md bg-white shadow-[2px_1px_2px_rgba(0,0,0,0.23)] border flex flex-col text-sm font-normal p-10 rounded-2xl border-[rgba(155,100,243,0.66)] border-solid max-md:max-w-full">
                 <div class="text-[rgba(38,45,61,1)] font-Kufam text-[32px] font-medium">
-                    Garante o lugar da sua
-                    <br />
-                    empresa
+                    Seja um dos primeiros Criadores na ENGAGE
                 </div>
                 <div class="text-[rgba(38,45,61,1)] font-Inter text-sm font-medium mt-[20px]">
-                    Preencha o formulário e estege entre os 25 criadores que terão o
-                    privilegio de testar a versão BETA
+                    Preencha o formulário abaixo e entre para a lista VIP dos criadores que terão acesso à versão BETA.
                 </div>
                 <form class="w-full" method="POST" action="{{ route('criadores.store') }}">
                     @csrf
@@ -51,7 +48,7 @@
                         <label for="phone"
                             class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal">Telefone</label>
                         <input type="hidden" name="country_code" id="country_code" value="{{ old('country_code') }}" />
-                        <input type="tel" id="phone" name="phone" value="{{ old('phone') }}"
+                        <input type="tel" id="phone" name="phone" placeholder="9XX XXX XXX" value="{{ old('phone') }}"
                             class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
                         @error('phone')
                             <div class="text-red-500 text-sm">{{ $message }}</div>
@@ -59,7 +56,7 @@
                     </div>
                     <button type="submit"
                         class="bg-[rgba(125,75,206,1)] w-full mt-[30px] min-h-[63px] font-Kufam text-base font-medium text-white rounded-[12px] uppercase text-center cursor-pointer hover:bg-[rgba(125,75,206,0.9)] transition-colors">
-                        Cadastrar-se
+                        GARANTIR MEU ACESSO
                     </button>
                 </form>
             </div>

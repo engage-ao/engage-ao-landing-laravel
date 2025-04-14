@@ -5,17 +5,15 @@
             <div class="w-full flex flex-col items-center relative z-[3] mx-auto font-normal max-md:max-w-full">
                 <h1
                     class="max-w-[854px] text-5xl font-Kufam text-center text-[#262D3D] mb-[55px] max-md:text-4xl max-md:max-w-full">
-                    A ENGAGE conecta criadores e marcas de todo o mundo, facilitando
-                    colaborações globais
+                    Transforme seu alcance em renda - com marcas que valorizam o que você faz
                 </h1>
                 <p
                     class="max-w-[529px] text-[#262D3D] font-Kufam font-normal text-xl text-center mb-[47px] max-md:max-w-full">
-                    Se cadastre na plataforma e conquiste novas parceiras com diversas
-                    marcas no mercado
+                    Cadastre-se gratuitamente e comece a colaborar com grandes marcas hoje mesmo!
                 </p>
                 <a href="#formulario"
-                    class="bg-[rgba(125,75,206,1)] min-w-[451px] min-h-[63px] max-md:min-w-[243px] max-md:min-h-[68.8px] flex items-center justify-center font-Kufam text-xl font-normal text-white rounded-xl max-md:rounded-2xl uppercase hover:bg-[rgba(125,75,206,0.9)] transition-colors">
-                    CADASTRAR-SE
+                    class="bg-[rgba(125,75,206,1)] min-w-[451px] min-h-[63px] max-md:min-w-[300px] max-md:min-h-[68.8px] flex items-center justify-center font-Kufam text-xl font-normal text-white rounded-xl max-md:rounded-2xl uppercase hover:bg-[rgba(125,75,206,0.9)] transition-colors">
+                    QUERO PARCERIAS AGORA
                 </a>
             </div>
         </div>
