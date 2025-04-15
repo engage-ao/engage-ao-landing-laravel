@@ -45,8 +45,8 @@
             answer: "Sim, a plataforma oferece ferramentas analíticas detalhadas que permitem acompanhar o desempenho das campanhas em tempo real, incluindo métricas de engajamento, alcance e conversão.",
         },
         {
-            question: "Como garantir que o criador escolhido atenda às expectativas?",
-            answer: "A ENGAGE possui um sistema de avaliação e portfólio que permite verificar o histórico e qualidade do trabalho dos criadores.Além disso, oferecemos um processo de seleção rigoroso e contratos claros para garantir que as expectativas sejam atendidas.",
+            question: "Preciso ter muitos seguidores para usar a ENGAGE?",
+            answer: "Não, a ENGAGE é projetada para atender criadores de todos os tamanhos. Valorizamos a autenticidade e o engajamento, não apenas o número de seguidores.",
         },
         {
             question: "A plataforma oferece suporte ao usuário?",

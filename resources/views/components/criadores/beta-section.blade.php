@@ -3,13 +3,13 @@
     <div class="container mx-auto flex flex-col items-center justify-between">
         <div class="w-full flex flex-col justify-between max-md:max-w-full">
             <div class="text-[rgba(38,45,61,1)] text-4xl font-Kufam font-normal text-center max-md:max-w-full">
-                Fique por dentro de tudo sobre a ENGAGE
+                Fique por dentro da ENGAGE antes de todo mundo
             </div>
             <div class="text-[rgba(38,45,61,1)] font-Kufam text-xl font-normal text-center mt-[17px] max-md:max-w-full">
-                O lançameto está previsto para
-                <span class="font-bold">dia 25 de Janeiro de 2025</span>,
-                <br class="max-md:hidden" /> para a versão beta
-                <span class="font-black"> apenas 25 criadores de conteúdo vão poder testar</span>
+                Lançamento exclusivo no dia <span class="font-bold">25 de Janeiro de 2025 </span>.
+                <br class="max-md:hidden" /> Apenas <span class="font-black">25 criadores de conteúdo</span>
+                terão acesso antecipado à versão BETA. Não perca esta chance
+                ÚNICA!
             </div>
         </div>
         <div class="w-full flex justify-center mt-[58px] max-md:max-w-full max-md:mt-10">
@@ -19,10 +19,11 @@
             <div
                 class="lg:-ml-10 max-w-md bg-white shadow-[2px_1px_2px_rgba(0,0,0,0.23)] border flex flex-col text-sm font-normal p-10 rounded-2xl border-[rgba(155,100,243,0.66)] border-solid max-md:max-w-full">
                 <div class="text-[rgba(38,45,61,1)] font-Kufam text-[32px] font-medium">
-                    Seja um dos primeiros Criadores na ENGAGE
+                    Seja um dos primeiros criadores na ENGAGE
                 </div>
                 <div class="text-[rgba(38,45,61,1)] font-Inter text-sm font-medium mt-[20px]">
-                    Preencha o formulário abaixo e entre para a lista VIP dos criadores que terão acesso à versão BETA.
+                    Preencha o formulário e junte-se aos 25 criadores que terão acesso VIP, sem custos, apenas
+                    oportunidade.
                 </div>
                 <form class="w-full" method="POST" action="{{ route('criadores.store') }}">
                     @csrf

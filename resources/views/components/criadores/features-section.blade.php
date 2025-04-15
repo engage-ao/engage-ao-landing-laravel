@@ -27,27 +27,27 @@
         {
             title: "Conexão com Marcas Relevantes",
             description:
-                "A plataforma facilita a descoberta de oportunidades com marcas alinhadas ao estilo, nicho e valores dos criadores, aumentando as chances de parcerias significativas e duradouras.",
+                "A plataforma conecta criadores de conteúdo a marcas que compartilham seus valores e interesses, facilitando parcerias autênticas e significativas.",
         },
         {
-            title: "Pagamentos Seguros e Garantidos",
+            title: "Monetização Justa e Transparente",
             description:
-                "Os criadores podem confiar em um sistema que garante pagamentos pontuais, eliminando preocupações com atrasos ou inconsistências financeiras.",
+                "Monetize seu conteúdo com marcas que reconhecem seu valor. Na Engage, cada parceria é justa, transparente e paga com segurança.",
         },
         {
             title: "Portfólio Profissional",
             description:
-                "A ENGAGE oferece uma vitrine digital para os criadores exibirem seus trabalhos, com dados claros sobre engajamento e impacto, o que aumenta a visibilidade para as marcas.",
-        },
-        {
-            title: "Oportunidades Globais",
-            description:
-                "Os criadores têm acesso a marcas de diferentes mercados, permitindo expandir suas redes e explorar colaborações internacionais.",
+                "Mostre seu trabalho com métricas reais de engajamento e impacto. Ganhe visibilidade e aumente suas chances de fechar parcerias com marcas.",
         },
         {
             title: "Feedback Estruturado",
             description:
-                "Os criadores recebem relatórios claros sobre o desempenho de suas campanhas, ajudando a identificar pontos fortes e áreas de melhoria em suas colaborações.",
+                "Receba relatórios detalhados sobre cada campanha, entenda seu impacto e melhore suas parcerias futuras com dados reais.",
+        },
+        {
+            title: "Suporte Dedicado",
+            description:
+                "A equipe da ENGAGE está sempre disponível para ajudar os criadores a maximizar seu potencial e resolver quaisquer dúvidas ou problemas.",
         },
     ];
 </script>
