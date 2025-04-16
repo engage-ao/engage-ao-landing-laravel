@@ -6,14 +6,16 @@
                 class="max-w-[1151px] flex justify-between gap-5 text-[rgba(38,45,61,1)] font-normal flex-wrap max-md:max-w-full">
                 <div
                     class="text-[rgba(38,45,61,1)] font-Kufam text-xl font-normal max-md:text-center max-md:order-last">
-                    A plataforma que conecta
+                    {{-- A plataforma que conecta
                     <br class="max-md:hidden" />
-                    as marcas e empresas aos <br class="max-md:hidden" /> criadores de conteúdo
+                    as marcas e empresas aos <br class="max-md:hidden" /> criadores de conteúdo --}}
+                    Encontre os criadores de <br class="max-md:hidden" /> conteúdo certos para sua <br
+                        class="max-md:hidden" /> marca sem complicações
                 </div>
                 <div
                     class="text-[rgba(38,45,61,1)] font-Kufam text-5xl font-normal mt-4 max-md:mx-auto max-md:text-center max-md:text-4xl max-md:order-first">
                     OS <span class="text-[rgba(155,100,243,1)]">45%</span> MAIS
-                    CRIATIVOS
+                    ENGAJADORES
                 </div>
             </div>
             <div class="w-full flex justify-between gap-[30px] max-md:max-w-full">
@@ -216,7 +218,7 @@
             <div class="md:hidden w-full flex justify-center mt-[30px]">
                 <a href="#formulario"
                     class="bg-[rgba(125,75,206,1)] min-w-[451px] min-h-[63px] max-md:min-w-[243px] max-md:min-h-[68.8px] flex items-center justify-center font-Kufam text-xl font-normal text-white rounded-xl max-md:rounded-2xl uppercase hover:bg-[rgba(125,75,206,0.9)] transition-colors">
-                    SAIBA MAIS
+                    COMECE AGORA
                 </a>
             </div>
         </div>

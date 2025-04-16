@@ -8,13 +8,12 @@
                 </h2>
                 <div
                     class="text-[rgba(38,45,61,1)] font-Inter text-lg font-medium leading-[27px] mt-[47px] max-md:mt-10">
-                    A ENGAGE é uma plataforma inovadora que conecta marcas e
-                    empresas a criadores de conteúdo freelancers, facilitando o
-                    estabelecimento de parcerias estratégicas.
+                    A ENGAGE é a plataforma que conecta marcas a
+                    criadores de conteúdo, facilitando parcerias autênticas e estratégicas.
                     <br class="hidden max-md:block" />
-                    <br class="hidden max-md:block" /> Seja você uma
-                    marca buscando ampliar sua presença digital ou um criador em
-                    busca de novas oportunidades, a ENGAGE oferece um ambiente
+                    <br class="hidden max-md:block" /> Nosso objetivo é ajudar empresas que desejam ampliar sua presença
+                    no digital, promovendo colaborações com criadores que
+                    realmente se alinham aos valores e ao público da marca, a ENGAGE oferece um ambiente
                     intuitivo e eficiente para transformar ideias em resultados
                     reais.
                     <br />
@@ -29,10 +28,9 @@
                         01
                     </div>
                     <div class="flex flex-col items-stretch grow shrink-0 basis-0 w-fit mt-[21px]">
-                        <div class="font-Kufam text-black text-base font-normal">Registe-se</div>
+                        <div class="font-Kufam text-black text-base font-normal">Registro</div>
                         <div class="font-Inter text-[rgba(95,95,95,1)] text-sm mt-[10px]">
-                            Primeiro, você precisa criar um perfil de marca/criador
-                            de conteúdo
+                            Crie seu perfil de marca na plataforma.
                         </div>
                     </div>
                 </div>
@@ -43,11 +41,10 @@
                     </div>
                     <div class="flex flex-col items-stretch grow shrink-0 basis-0 w-fit my-auto">
                         <div class="font-Kufam text-black text-base font-normal">
-                            Criar um Portfólio
+                            Campanha
                         </div>
                         <div class="font-Inter text-[rgba(95,95,95,1)] text-sm mt-[10px]">
-                            Segundo, crie um portfólio público ou privado na
-                            plataforma
+                            Publique seu briefing e defina os objetivos da sua campanha.
                         </div>
                     </div>
                 </div>
@@ -58,11 +55,11 @@
                     </div>
                     <div class="flex flex-col items-stretch grow shrink-0 basis-0 w-fit my-auto">
                         <div class="font-Kufam text-black text-base font-normal">
-                            Candidatura/Aplicação
+                            Seleção
                         </div>
                         <div class="font-Inter text-[rgba(95,95,95,1)] text-sm mt-[10px]">
-                            Terceiro, cria um serviço e disponibiliza para os
-                            criadores. E os criadores vão se candidatar ao serviço
+                            Receba candidaturas de criadores alinhados aos seus critérios, avalie e selecione os
+                            melhores.
                         </div>
                     </div>
                 </div>
@@ -73,10 +70,11 @@
                     </div>
                     <div class="flex flex-col items-stretch grow shrink-0 basis-0 w-fit my-auto">
                         <div class="font-Kufam text-black text-base font-normal">
-                            Aprovação e Validação
+                            Aprovação
                         </div>
                         <div class="font-Inter text-[rgba(95,95,95,1)] text-sm mt-[10px]">
-                            Quarto, aprovação e negociação de contrato
+                            Revise os conteúdo antes do lançamento e aprove para publicação. Acompanhe os resultados em
+                            tempo real.
                         </div>
                     </div>
                 </div>

@@ -32,7 +32,7 @@
         {
             title: "Monetização Justa e Transparente",
             description:
-                "Monetize seu conteúdo com marcas que reconhecem seu valor. Na Engage, cada parceria é justa, transparente e paga com segurança.",
+                "Monetize seu conteúdo com marcas que reconhecem seu valor. Na ENGAGE, cada parceria é justa, transparente e paga com segurança.",
         },
         {
             title: "Portfólio Profissional",
