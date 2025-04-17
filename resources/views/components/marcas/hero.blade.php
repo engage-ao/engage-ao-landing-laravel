@@ -33,7 +33,7 @@
                             <p class="text-center">
                                 Olá, <span class="font-semibold text-base">Sou o Pedro</span>
                                 <br />
-                                Influence no nicho de dublagem
+                                Influencer no nicho de dublagem
                             </p>
                             <div class="flex gap-[35px] text-center">
                                 <div class="flex flex-col items-center gap-1">
@@ -107,7 +107,7 @@
                             <p class="text-center">
                                 Olá, <span class="font-semibold text-base">Sou o Maya</span>
                                 <br />
-                                Influence no nicho de colinária
+                                Influencer no nicho de culinária
                             </p>
                             <div class="flex gap-[35px] text-center">
                                 <div class="flex flex-col items-center gap-1">
@@ -162,7 +162,7 @@
                             <p class="text-center">
                                 Olá, <span class="font-semibold text-base">Sou a Sassa</span>
                                 <br />
-                                Influence no nicho de moda
+                                Influencer no nicho de moda
                             </p>
                             <div class="flex gap-[35px] text-center">
                                 <div class="flex flex-col items-center gap-1">
