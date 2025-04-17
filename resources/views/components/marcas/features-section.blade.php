@@ -103,7 +103,7 @@
                         </defs>
                     </svg>
                     <div class="text-[rgba(38,45,61,1)] mt-10 text-center font-Kufam text-[18.75px] font-semibold">
-                        Acesso a Criadores de Alto Nível
+                        Conteúdo Autêntico
                     </div>
                 </div>
                 <div
