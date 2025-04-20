@@ -37,16 +37,13 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
   @if (app()->environment('production'))
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TWH9PBG6L0"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4H03S9Z1VN"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'G-TWH9PBG6L0');
+    gtag('config', 'G-4H03S9Z1VN');
     </script>
   @endif
 </head>
