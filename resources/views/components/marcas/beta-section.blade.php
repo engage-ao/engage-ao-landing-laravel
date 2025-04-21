@@ -29,6 +29,7 @@
                     <div class="flex flex-col items-stretch mt-[20px] gap-[10px]">
                         <label for="name" class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal">Nome</label>
                         <input type="text" id="name" name="name" placeholder="Digite seu nome" value="{{ old('name') }}"
+                            required
                             class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
                         @error('name')
                             <div class="text-red-500 text-sm">{{ $message }}</div>
@@ -38,7 +39,7 @@
                         <label for="email"
                             class="text-[rgba(88,88,88,1)] font-Kufam text-base font-normal">E-mail</label>
                         <input type="email" id="email" name="email" placeholder="Digite aqui seu email"
-                            value="{{ old('email') }}"
+                            value="{{ old('email') }}" required
                             class="bg-[rgba(217,217,217,0.08)] border text-[rgba(88,88,88,1)] w-full px-[13px] py-4 rounded-[9px] border-[rgba(88,88,88,0.32)] border-solid" />
                         @error('email')
                             <div class="text-red-500 text-sm">{{ $message }}</div>
