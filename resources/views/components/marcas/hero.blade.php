@@ -22,10 +22,10 @@
                 <img src="{{ asset('assets/Group 56.png')}}" alt="Brand"
                     class="aspect-[1.63] object-contain w-[537px] max-md:w-full" />
                 <div
-                    class="lg:flex justify-between hidden w-full items-center gap-[9px] text-sm text-white font-normal flex-wrap max-md:max-w-full">
-                    <div class="relative group">
+                    class="lg:flex justify-between hidden w-full items-center gap-[9px] text-sm text-white font-normal flex-nowrap">
+                    <div class="relative group shrink-0">
                         <img src="{{ asset('assets/pexels-diimejii-9660720.png') }}" alt="Creator content"
-                            class="aspect-[0.81] object-contain w-[268px] max-md:w-full self-stretch min-w-60 my-auto group-hover:opacity-0 transition-opacity duration-300" />
+                            class="aspect-[0.81] object-contain self-stretch min-w-60 my-auto group-hover:opacity-0 transition-opacity duration-300" />
                         <div
                             class="absolute inset-0 bg-[rgba(96,46,177,1)] flex flex-col items-center gap-[18px] justify-center text-white font-Kufam font-normal text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <img src="{{ asset('assets/pexels-diimejii-9660720.png') }}" alt="Creator content"
@@ -97,9 +97,9 @@
                             </button>
                         </div>
                     </div>
-                    <div class="relative group">
+                    <div class="relative group shrink-0">
                         <img src="{{ asset('assets/pexels-rdne-12322964-1.png') }}" alt="Creator content"
-                            class="aspect-[0.81] object-contain w-[268px] max-md:w-full self-stretch min-w-60 my-auto group-hover:opacity-0 transition-opacity duration-300" />
+                            class="aspect-[0.81] object-contain self-stretch min-w-60 my-auto group-hover:opacity-0 transition-opacity duration-300" />
                         <div
                             class="absolute inset-0 bg-[rgba(96,46,177,1)] flex flex-col items-center gap-[18px] justify-center text-white font-Kufam font-normal text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <img src="{{ asset('assets/pexels-rdne-12322964-1.png') }}" alt="Creator content"
@@ -152,9 +152,9 @@
                             </button>
                         </div>
                     </div>
-                    <div class="relative group">
+                    <div class="relative group shrink-0">
                         <img src="{{ asset('assets/pexels-rdne-12322964.png') }}" alt="Creator content"
-                            class="aspect-[0.81] object-contain w-[268px] max-md:w-full self-stretch min-w-60 my-auto group-hover:opacity-0 transition-opacity duration-300" />
+                            class="aspect-[0.81] object-contain self-stretch min-w-60 my-auto group-hover:opacity-0 transition-opacity duration-300" />
                         <div
                             class="absolute inset-0 bg-[rgba(96,46,177,1)] flex flex-col items-center gap-[18px] justify-center text-white font-Kufam font-normal text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <img src="{{ asset('assets/pexels-rdne-12322964.png') }}" alt="Creator content"

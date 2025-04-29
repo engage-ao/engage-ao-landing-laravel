@@ -1,7 +1,7 @@
 <section
     class="bg-white flex w-full items-stretch flex-wrap justify-between px-[65px] py-[77px] max-md:max-w-full max-md:px-5">
     <div class="container mx-auto flex items-center justify-between">
-        <div class="w-full flex lg:flex-row flex-col gap-[163px] justify-between max-md:gap-11">
+        <div class="w-full flex lg:flex-row flex-col gap-[163px] justify-between max-lg:gap-11">
             <div class="w-full flex flex-col text-justify max-md:text-center max-md:w-full">
                 <h2 class="text-[rgba(38,45,61,1)] text-4xl font-Kufam font-normal">
                     O que é a ENGAGE?

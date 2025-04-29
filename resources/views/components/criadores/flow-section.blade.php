@@ -6,10 +6,10 @@
                 class="text-[rgba(38,45,61,1)] w-[750px] mx-auto text-4xl font-Kufam font-normal text-center max-md:max-w-full">
                 Como funciona as parcerias com marcas na ENGAGE?
             </div>
-            <div class="flex justify-center items-center gap-[30px] mt-[47px] max-lg:flex-col">
+            <div class="flex justify-center items-center gap-[30px] mt-[47px] max-xl:flex-col">
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
-                    <div class="size-[118px] max-lg:size-[80px] mb-5">
+                    class="flex flex-col items-center justify-center gap-4 size-[286px] max-xl:size-[240px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
+                    <div class="size-[118px] max-xl:size-[90px] max-lg:size-[80px]">
                         <svg class="w-full h-full" viewBox="0 0 133 133" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect width="133" height="133" fill="url(#pattern0_793_320)" fill-opacity="0.22" />
@@ -23,20 +23,27 @@
                             </defs>
                         </svg>
                     </div>
-                    <div class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-lg:text-base font-semibold">
+                    <div
+                        class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-md:text-sm max-lg:text-base font-semibold">
                         Oportunidade</div>
                 </div>
                 <div>
                     <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        class="arrow" style="width: 29px; height: 16px">
+                        class="arrow flex max-xl:hidden" style="width: 29px; height: 16px">
                         <path
                             d="M29.7071 8.70711C30.0976 8.31658 30.0976 7.68342 29.7071 7.29289L23.3431 0.928932C22.9526 0.538408 22.3195 0.538408 21.9289 0.928932C21.5384 1.31946 21.5384 1.95262 21.9289 2.34315L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.70711ZM0 9H29V7H0V9Z"
                             fill="#9B64F3"></path>
                     </svg>
+                    <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="arrow hidden max-xl:flex" style="width: 16px; height: 29px">
+                        <path
+                            d="M7.29289 29.7071C7.68342 30.0976 8.31658 30.0976 8.70711 29.7071L15.0711 23.3431C15.4616 22.9526 15.4616 22.3195 15.0711 21.9289C14.6805 21.5384 14.0474 21.5384 13.6569 21.9289L8 27.5858L2.34315 21.9289C1.95262 21.5384 1.31946 21.5384 0.928932 21.9289C0.538408 22.3195 0.538408 22.9526 0.928932 23.3431L7.29289 29.7071ZM9 0L9 29H7L7 0H9Z"
+                            fill="#9B64F3"></path>
+                    </svg>
                 </div>
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
-                    <div class="size-[118px] max-lg:size-[80px] mb-5">
+                    class="flex flex-col items-center justify-center gap-4 size-[286px] max-xl:size-[240px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
+                    <div class="size-[118px] max-xl:size-[90px] max-lg:size-[80px]">
                         <svg class="w-full h-full" viewBox="0 0 139 139" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect width="139" height="139" fill="url(#pattern0_793_322)" />
@@ -50,20 +57,27 @@
                             </defs>
                         </svg>
                     </div>
-                    <div class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-lg:text-base font-semibold">
+                    <div
+                        class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-md:text-sm max-lg:text-base font-semibold">
                         Candidatura</div>
                 </div>
                 <div>
                     <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        class="arrow" style="width: 29px; height: 16px">
+                        class="arrow flex max-xl:hidden" style="width: 29px; height: 16px">
                         <path
                             d="M29.7071 8.70711C30.0976 8.31658 30.0976 7.68342 29.7071 7.29289L23.3431 0.928932C22.9526 0.538408 22.3195 0.538408 21.9289 0.928932C21.5384 1.31946 21.5384 1.95262 21.9289 2.34315L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.70711ZM0 9H29V7H0V9Z"
                             fill="#9B64F3"></path>
                     </svg>
+                    <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="arrow hidden max-xl:flex" style="width: 16px; height: 29px">
+                        <path
+                            d="M7.29289 29.7071C7.68342 30.0976 8.31658 30.0976 8.70711 29.7071L15.0711 23.3431C15.4616 22.9526 15.4616 22.3195 15.0711 21.9289C14.6805 21.5384 14.0474 21.5384 13.6569 21.9289L8 27.5858L2.34315 21.9289C1.95262 21.5384 1.31946 21.5384 0.928932 21.9289C0.538408 22.3195 0.538408 22.9526 0.928932 23.3431L7.29289 29.7071ZM9 0L9 29H7L7 0H9Z"
+                            fill="#9B64F3"></path>
+                    </svg>
                 </div>
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
-                    <div class="size-[118px] max-lg:size-[80px] mb-5">
+                    class="flex flex-col items-center justify-center gap-4 size-[286px] max-xl:size-[240px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
+                    <div class="size-[118px] max-xl:size-[90px] max-lg:size-[80px]">
                         <svg class="w-full h-full" viewBox="0 0 118 118" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect width="118" height="118" fill="url(#pattern0_793_316)" fill-opacity="0.37" />
@@ -77,20 +91,27 @@
                             </defs>
                         </svg>
                     </div>
-                    <div class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-lg:text-base font-semibold">
+                    <div
+                        class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-md:text-sm max-lg:text-base font-semibold">
                         Criação</div>
                 </div>
                 <div>
                     <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        class="arrow" style="width: 29px; height: 16px">
+                        class="arrow flex max-xl:hidden" style="width: 29px; height: 16px">
                         <path
                             d="M29.7071 8.70711C30.0976 8.31658 30.0976 7.68342 29.7071 7.29289L23.3431 0.928932C22.9526 0.538408 22.3195 0.538408 21.9289 0.928932C21.5384 1.31946 21.5384 1.95262 21.9289 2.34315L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.70711ZM0 9H29V7H0V9Z"
                             fill="#9B64F3"></path>
                     </svg>
+                    <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="arrow hidden max-xl:flex" style="width: 16px; height: 29px">
+                        <path
+                            d="M7.29289 29.7071C7.68342 30.0976 8.31658 30.0976 8.70711 29.7071L15.0711 23.3431C15.4616 22.9526 15.4616 22.3195 15.0711 21.9289C14.6805 21.5384 14.0474 21.5384 13.6569 21.9289L8 27.5858L2.34315 21.9289C1.95262 21.5384 1.31946 21.5384 0.928932 21.9289C0.538408 22.3195 0.538408 22.9526 0.928932 23.3431L7.29289 29.7071ZM9 0L9 29H7L7 0H9Z"
+                            fill="#9B64F3"></path>
+                    </svg>
                 </div>
                 <div
-                    class="flex flex-col items-center justify-center size-[286px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
-                    <div class="size-[118px] max-lg:size-[80px] mb-5">
+                    class="flex flex-col items-center justify-center gap-4 size-[286px] max-xl:size-[240px] max-lg:size-[200px] border shadow-[0_4px_8px_rgba(0,0,0,0.08)] bg-white p-5 rounded-full border-solid border-[#9B64F3]">
+                    <div class="size-[118px] max-xl:size-[90px] max-lg:size-[80px]">
                         <svg class="w-full h-full" viewBox="0 0 194 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_793_327)">
                                 <g clip-path="url(#clip1_793_327)">
@@ -131,9 +152,11 @@
                             </defs>
                         </svg>
                     </div>
-                    <div class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-lg:text-base font-semibold">
+                    <div
+                        class="text-[rgba(38,45,61,1)] font-Kufam text-[18.75px] max-md:text-sm max-lg:text-base font-semibold">
                         Pagamento</div>
                 </div>
             </div>
         </div>
-    </div></section>
+    </div>
+</section>
