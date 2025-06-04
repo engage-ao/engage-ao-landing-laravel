@@ -7,19 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="author" content="{{ config('app.name', 'ENGAGE') }}">
-  <meta name="description" content="{{ config('app.name', 'ENGAGE') }} - Transformando ideias em resultados reais">
+  <meta name="description" content="Transformamos ideias em resultados reais">
   <meta name="keywords"
-    content="ENGAGE, engajamento, criadores de conteúdo, marcas, digital, influenciadores, marketing de conteúdo, marketing de influenciadores, conexão, resultados reais, ROI, monetização, campanha, conteúdo autêntico, parceria autêntica, parceria estrategica" />
+    content="engage, engajamento, criadores de conteúdo, marcas, digital, influenciadores, marketing de conteúdo, marketing de influenciadores, conexão, resultados reais, ROI, monetização, campanha, conteúdo autêntico, parceria autêntica, parceria estrategica, tiktok" />
   <meta name="robots" content="index, follow" />
   <meta name="canonical" content="{{ url()->current() }}" />
   <link rel="manifest" href="/manifest.json" />
   <meta content="ENGAGE" property="og:site_name" />
   <meta property="og:url" content="{{ url()->current() }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ config('app.name', 'ENGAGE') }} - Transformando ideias em resultados reais" />
-  <meta property="og:description"
-    content="{{ config('app.name', 'ENGAGE') }} - Transformando ideias em resultados reais" />
-  <meta property="og:image" content="{{ asset('assets/ChatGPT Image 17_04_2025, 10_26_08.png') }}" />
+  <meta property="og:title" content="{{ config('app.name', 'ENGAGE') }}" />
+  <meta property="og:description" content="Transformamos ideias em resultados reais" />
+  <meta property="og:image" content="{{ asset('assets/Engage.jpg') }}" />
 
   <title>{{ config('app.name', 'ENGAGE') }}</title>
 
@@ -44,6 +43,18 @@
     gtag('js', new Date());
 
     gtag('config', 'G-4H03S9Z1VN');
+    </script>
+
+    <!-- Hotjar Tracking Code for https://www.engage.ao -->
+    <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 6425881, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
   @endif
 </head>
