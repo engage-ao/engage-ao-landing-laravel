@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="author" content="{{ config('app.name', 'ENGAGE') }}">
-  <meta name="description" content="Transformamos ideias em resultados reais">
+  <meta name="description" content="Conectamos marcas e criadores de conteúdo para campanhas autênticas e eficazes." />
   <meta name="keywords"
     content="engage, engajamento, criadores de conteúdo, marcas, digital, influenciadores, marketing de conteúdo, marketing de influenciadores, conexão, resultados reais, ROI, monetização, campanha, conteúdo autêntico, parceria autêntica, parceria estrategica, tiktok" />
   <meta name="robots" content="index, follow" />
@@ -16,8 +16,9 @@
   <meta content="ENGAGE" property="og:site_name" />
   <meta property="og:url" content="{{ url()->current() }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ config('app.name', 'ENGAGE') }}" />
-  <meta property="og:description" content="Transformamos ideias em resultados reais" />
+  <meta property="og:title" content="{{ config('app.name', 'ENGAGE') }} - Transformamos ideias em resultados reais" />
+  <meta property="og:description"
+    content="Conectamos marcas e criadores de conteúdo para campanhas autênticas e eficazes." />
   <meta property="og:image" content="{{ asset('assets/Engage.jpg') }}" />
 
   <title>{{ config('app.name', 'ENGAGE') }}</title>
