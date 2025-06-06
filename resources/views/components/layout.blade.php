@@ -37,20 +37,20 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
   @if (app()->environment('production'))
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4H03S9Z1VN"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ env('GOOGLE_ANALYTICS_ID') }}"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'G-4H03S9Z1VN');
+    gtag('config', '{{ env('GOOGLE_ANALYTICS_ID') }}');
     </script>
 
     <!-- Hotjar Tracking Code for https://www.engage.ao -->
     <script>
     (function (h, o, t, j, a, r) {
       h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-      h._hjSettings = { hjid: 6425881, hjsv: 6 };
+      h._hjSettings = { hjid: {{ env('HOTJAR_TRACKING_ID') }}, hjsv: 6 };
       a = o.getElementsByTagName('head')[0];
       r = o.createElement('script'); r.async = 1;
       r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
