@@ -37,13 +37,13 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
   @if (app()->environment('production'))
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ env('GOOGLE_ANALYTICS_ID') }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZLZHLEBN2"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', '{{ env('GOOGLE_ANALYTICS_ID') }}');
+    gtag('config', 'G-JZLZHLEBN2');
     </script>
 
     <!-- Hotjar Tracking Code for https://www.engage.ao -->
