@@ -6,7 +6,7 @@
                 Fique por dentro da ENGAGE antes de todo mundo
             </div>
             <div class="text-[rgba(38,45,61,1)] font-Kufam text-xl font-normal text-center mt-[17px] max-md:max-w-full">
-                Lançamento exclusivo no dia <span class="font-bold">25 de Janeiro de 2025 </span>.
+                Lançamento exclusivo no dia <span class="font-bold">25 de Agosto de 2025 </span>.
                 <br class="max-md:hidden" /> Apenas <span class="font-black">25 criadores de conteúdo</span>
                 terão acesso antecipado à versão BETA. Não perca esta chance
                 ÚNICA!

@@ -209,9 +209,9 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full flex flex-col justify-between">
+            <div class="max-w-[1251px] max-md:max-w-full flex flex-col justify-between">
                 <div
-                    class="text-[rgba(38,45,61,1)] font-Kufam text-5xl font-normal max-md:max-w-full max-md:text-4xl text-right max-md:text-center">
+                    class="text-[rgba(38,45,61,1)] font-Kufam text-5xl font-normal max-md:text-4xl text-right max-md:text-center">
                     COM OS MELHORES RESULTADOS
                 </div>
             </div>
