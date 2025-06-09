@@ -27,15 +27,16 @@
                 <nav class="flex max-md:flex-col gap-[40px_70px] font-Roboto text-sm text-white font-normal">
                     <a href="{{ route('marcas') }}">Marcas</a>
                     <a href="{{ route('criadores') }}">Criadores de conteúdo</a>
+                    <a href="{{ route('contactos') }}">Contactos</a>
                 </nav>
                 <div class="flex items-center gap-[30px]">
-                    <a href="#" aria-label="Facebook">
+                    {{-- <a href="#" aria-label="Facebook">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M9.35963 5.5V3.5C9.35963 2.948 9.80701 2.5 10.3582 2.5H11.3569V0H9.35963C7.70493 0 6.3638 1.343 6.3638 3V5.5H4.36658V8H6.3638V16H9.35963V8H11.3569L12.3555 5.5H9.35963Z"
                                 fill="white" />
                         </svg>
-                    </a>
+                    </a> --}}
                     <a href="https://linkedin.com/company/engage-angola" aria-label="LinkedIn" target="_blank">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -43,13 +44,13 @@
                                 fill="white" />
                         </svg>
                     </a>
-                    <a href="#" aria-label="Twitter">
+                    {{-- <a href="#" aria-label="Twitter">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M16.2222 2.8725C15.628 3.1335 14.9949 3.3065 14.3348 3.3905C15.0138 2.9845 15.5321 2.3465 15.7758 1.5775C15.1427 1.9555 14.4436 2.2225 13.6987 2.3715C13.0975 1.7305 12.2407 1.3335 11.306 1.3335C9.49252 1.3335 8.03255 2.8075 8.03255 4.6145C8.03255 4.8745 8.05452 5.1245 8.10845 5.3625C5.38523 5.2295 2.97559 3.9225 1.35684 1.9315C1.07423 2.4225 0.908461 2.9845 0.908461 3.5895C0.908461 4.7255 1.49265 5.7325 2.36344 6.3155C1.83717 6.3055 1.32089 6.1525 0.883496 5.9115C0.883496 5.9215 0.883496 5.9345 0.883496 5.9475C0.883496 7.5415 2.01892 8.8655 3.50785 9.1705C3.24122 9.2435 2.95062 9.2785 2.64904 9.2785C2.43933 9.2785 2.22763 9.2665 2.0289 9.2225C2.45331 10.5215 3.65764 11.4765 5.08965 11.5075C3.9752 12.3805 2.56016 12.9065 1.02829 12.9065C0.759668 12.9065 0.502026 12.8945 0.244385 12.8615C1.69537 13.7985 3.41497 14.3335 5.2694 14.3335C11.297 14.3335 14.5924 9.3335 14.5924 4.9995C14.5924 4.8545 14.5874 4.7145 14.5804 4.5755C15.2305 4.1135 15.7768 3.5365 16.2222 2.8725Z"
                                 fill="white" />
                         </svg>
-                    </a>
+                    </a> --}}
                     <a href="https://instagram.com/engage.ao/" aria-label="Instagram" target="_blank">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -84,16 +85,17 @@
                 class="flex flex-col items-center justify-center gap-[40px] mt-[50px] font-Roboto text-sm text-white font-normal">
                 <a href="{{ route('marcas') }}">Marcas</a>
                 <a href="{{ route('criadores') }}">Criadores de conteúdo</a>
+                <a href="{{ route('contactos') }}">Contactos</a>
             </nav>
             <div class="bg-[rgba(205,209,212,1)] flex shrink-0 h-px mt-[50px]"></div>
             <div class="flex items-center justify-center gap-[30px] mt-[50px]">
-                <a href="#" aria-label="Facebook">
+                {{-- <a href="#" aria-label="Facebook">
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M9.35963 5.5V3.5C9.35963 2.948 9.80701 2.5 10.3582 2.5H11.3569V0H9.35963C7.70493 0 6.3638 1.343 6.3638 3V5.5H4.36658V8H6.3638V16H9.35963V8H11.3569L12.3555 5.5H9.35963Z"
                             fill="white" />
                     </svg>
-                </a>
+                </a> --}}
                 <a href="https://linkedin.com/company/engage-angola" aria-label="LinkedIn" target="_blank">
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -101,13 +103,13 @@
                             fill="white" />
                     </svg>
                 </a>
-                <a href="#" aria-label="Twitter">
+                {{-- <a href="#" aria-label="Twitter">
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M16.2222 2.8725C15.628 3.1335 14.9949 3.3065 14.3348 3.3905C15.0138 2.9845 15.5321 2.3465 15.7758 1.5775C15.1427 1.9555 14.4436 2.2225 13.6987 2.3715C13.0975 1.7305 12.2407 1.3335 11.306 1.3335C9.49252 1.3335 8.03255 2.8075 8.03255 4.6145C8.03255 4.8745 8.05452 5.1245 8.10845 5.3625C5.38523 5.2295 2.97559 3.9225 1.35684 1.9315C1.07423 2.4225 0.908461 2.9845 0.908461 3.5895C0.908461 4.7255 1.49265 5.7325 2.36344 6.3155C1.83717 6.3055 1.32089 6.1525 0.883496 5.9115C0.883496 5.9215 0.883496 5.9345 0.883496 5.9475C0.883496 7.5415 2.01892 8.8655 3.50785 9.1705C3.24122 9.2435 2.95062 9.2785 2.64904 9.2785C2.43933 9.2785 2.22763 9.2665 2.0289 9.2225C2.45331 10.5215 3.65764 11.4765 5.08965 11.5075C3.9752 12.3805 2.56016 12.9065 1.02829 12.9065C0.759668 12.9065 0.502026 12.8945 0.244385 12.8615C1.69537 13.7985 3.41497 14.3335 5.2694 14.3335C11.297 14.3335 14.5924 9.3335 14.5924 4.9995C14.5924 4.8545 14.5874 4.7145 14.5804 4.5755C15.2305 4.1135 15.7768 3.5365 16.2222 2.8725Z"
                             fill="white" />
                     </svg>
-                </a>
+                </a> --}}
                 <a href="https://instagram.com/engage.ao/" aria-label="Instagram" target="_blank">
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
