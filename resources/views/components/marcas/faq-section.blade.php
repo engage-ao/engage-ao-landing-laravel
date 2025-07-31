@@ -33,24 +33,28 @@
 <script>
     const faqs = [
         {
-            question: "A ENGAGE é segura para transações?",
-            answer: "Sim, a ENGAGE implementa protocolos de segurança avançados para garantir que todas as transações sejam seguras. Utilizamos criptografia de ponta a ponta e sistemas de verificação para proteger os dados dos usuários.",
+            question: "O que é a Engage e como pode ajudar minha marca?",
+            answer: "A Engage conecta sua marca com criadores de conteúdo que falam com o teu público-alvo. Em vez de investir em publicidade tradicional ou influenciadores aleatórios, ajudamos você a promover seu negócio de forma mais autêntica e eficaz.",
         },
         {
-            question: "Posso cancelar minha conta a qualquer momento?",
-            answer: "Absolutamente. Você tem total liberdade para cancelar sua conta quando desejar, sem taxas ou penalidades. Todos os seus dados serão removidos de nossos servidores após o cancelamento.",
+            question: "E se o criador não atender às expectativas?",
+            answer: "Oferecemos contratos claros, avaliações de desempenho e um processo de mediação caso algo fuja do combinado. Nossa prioridade é garantir a sua satisfação.",
         },
         {
-            question: "É possível acompanhar os resultados das campanhas realizadas com criadores?",
-            answer: "Sim, a plataforma oferece ferramentas analíticas detalhadas que permitem acompanhar o desempenho das campanhas em tempo real, incluindo métricas de engajamento, alcance e conversão.",
+            question: "Posso acompanhar os resultados das campanhas?",
+            answer: "Sim. A Engage fornece métricas em tempo real sobre engajamento, alcance, visualizações, cliques e conversões.",
         },
         {
-            question: "Como garantir que o criador escolhido atenda às expectativas?",
-            answer: "A ENGAGE possui um sistema de avaliação e portfólio que permite verificar o histórico e qualidade do trabalho dos criadores.Além disso, oferecemos um processo de seleção rigoroso e contratos claros para garantir que as expectativas sejam atendidas.",
+            question: "Quanto custa usar a Engage?",
+            answer: "Você paga apenas pelos serviços contratados. Os preços são transparentes e definidos previamente, sem taxas ocultas.",
         },
         {
-            question: "A plataforma oferece suporte ao usuário?",
-            answer: "Sim, oferecemos suporte ao usuário 24/7 através de chat ao vivo, e-mail e telefone. Nossa equipe está sempre pronta para ajudar com qualquer dúvida ou problema que possa surgir.",
+            question: "Não tenho tempo para negociar com influenciadores. A Engage ajuda nisso?",
+            answer: "Sim. A plataforma centraliza todo o processo, da proposta à entrega do conteúdo, para que você não perca tempo com negociações individuais.",
+        },
+        {
+            question: "A Engage oferece suporte?",
+            answer: "Sim. Nosso time está disponível para ajudar você em todas as etapas, desde a escolha do criador até o fim da campanha.",
         },
     ];
 </script>

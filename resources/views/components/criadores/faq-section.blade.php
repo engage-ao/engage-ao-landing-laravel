@@ -33,24 +33,32 @@
 <script>
     const faqs = [
         {
-            question: "A ENGAGE é segura para transações?",
-            answer: "Sim, a ENGAGE implementa protocolos de segurança avançados para garantir que todas as transações sejam seguras. Utilizamos criptografia de ponta a ponta e sistemas de verificação para proteger os dados dos usuários.",
+            question: "Como posso me cadastrar na Engage?",
+            answer: "Basta preencher um formulário com seus dados. Em seguida, passamos por uma avaliação e, se aprovado, seu perfil estará disponível para marcas.",
         },
         {
-            question: "Posso cancelar minha conta a qualquer momento?",
-            answer: "Absolutamente. Você tem total liberdade para cancelar sua conta quando desejar, sem taxas ou penalidades. Todos os seus dados serão removidos de nossos servidores após o cancelamento.",
+            question: "Preciso ter muitos seguidores para entrar na plataforma?",
+            answer: "Não necessariamente. A Engage valoriza criadores com autenticidade, engajamento e qualidade de conteúdo — não apenas números.",
         },
         {
-            question: "É possível acompanhar os resultados das campanhas realizadas com criadores?",
-            answer: "Sim, a plataforma oferece ferramentas analíticas detalhadas que permitem acompanhar o desempenho das campanhas em tempo real, incluindo métricas de engajamento, alcance e conversão.",
+            question: "Como recebo pelos trabalhos realizados?",
+            answer: "Os pagamentos são feitos de forma segura pela plataforma após a entrega e aprovação do conteúdo.",
         },
         {
-            question: "Preciso ter muitos seguidores para usar a ENGAGE?",
-            answer: "Não, a ENGAGE é projetada para atender criadores de todos os tamanhos. Valorizamos a autenticidade e o engajamento, não apenas o número de seguidores.",
+            question: "Como são definidas as campanhas?",
+            answer: "As marcas definem os objetivos e diretrizes da campanha. Você recebe um briefing claro e pode aceitar apenas os trabalhos que fizerem sentido para você.",
         },
         {
-            question: "A plataforma oferece suporte ao usuário?",
-            answer: "Sim, oferecemos suporte ao usuário 24/7 através de chat ao vivo, e-mail e telefone. Nossa equipe está sempre pronta para ajudar com qualquer dúvida ou problema que possa surgir.",
+            question: "A Engage me ajuda a conseguir mais oportunidades?",
+            answer: "Sim. Com seu perfil ativo na plataforma, você será encontrado por marcas interessadas no seu estilo de conteúdo e no seu público.",
+        },
+        {
+            question: "Posso negociar os valores com a marca?",
+            answer: "Sim. Você pode definir seu preço base no perfil e negociar valores com base no escopo da campanha.",
+        },
+        {
+            question: "A plataforma cobra alguma taxa dos criadores?",
+            answer: "A inscrição é gratuita. Em alguns casos, uma pequena comissão pode ser aplicada sobre pagamentos recebidos, mas sempre de forma transparente.",
         },
     ];
 </script>
