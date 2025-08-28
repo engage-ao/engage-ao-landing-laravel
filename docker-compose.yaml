@@ -1,17 +1,18 @@
 services:
-  php:
-    image: dunglas/frankenphp
-    restart: always
-    ports:
-      - "80:80" # HTTP
-      - "443:443" # HTTPS
-      - "443:443/udp" # HTTP/3
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
     volumes:
-      - ./:/app/public
-      - caddy_data:/data
-      - caddy_config:/config
+      - ./:/var/www
 
-# Volumes needed for Caddy certificates and configuration
-volumes:
-  caddy_data:
-  caddy_config:
+  # nginx
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "9000:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/:/etc/nginx/conf.d/
