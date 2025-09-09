@@ -3,16 +3,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    restart: unless-stopped
-    volumes:
-      - ./:/var/www
-
-  # nginx
-  nginx:
-    image: nginx:alpine
-    restart: unless-stopped
     ports:
-      - "9000:80"
+      - "8090:80"
     volumes:
-      - ./:/var/www
-      - ./docker/nginx/:/etc/nginx/conf.d/
+      - .:/var/www/html
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+    restart: unless-stopped
