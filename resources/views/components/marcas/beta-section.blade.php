@@ -6,9 +6,9 @@
                 Fique por dentro da ENGAGE em primeira mão
             </div>
             <div class="text-[rgba(38,45,61,1)] font-Kufam text-xl font-normal text-center mt-[17px] max-md:max-w-full">
-                Lançamento exclusivo no dia <span class="font-bold">25 de Agosto de 2025 </span>.
-                <br class="max-md:hidden" /> Apenas <span class="font-black">25 marcas</span>
-                terão acesso antecipado à versão BETA. Esta é a sua oportunidade única!
+                Estamos a preparar algo que vai transformar o <span class="font-bold">marketing de influência</span> em
+                Angola <br class="max-md:hidden" />— e queremos que algumas marcas tenham
+                acesso privilegiado aos bastidores.
             </div>
         </div>
         <div class="w-full flex justify-center mt-[58px] max-md:max-w-full max-md:mt-10">
@@ -21,8 +21,8 @@
                     Garanta agora o lugar da sua empresa
                 </div>
                 <div class="text-[rgba(38,45,61,1)] font-Inter text-sm font-medium mt-[20px]">
-                    Preencha o formulário abaixo e assegure seu acesso privilegiado, sem custos e sem
-                    riscos. Não deixe essa oportunidade escapar!
+                    Preencha o formulário abaixo e torne-se uma das marcas que conhecerão a ENGAGE antes do público
+                    geral.
                 </div>
                 <form class="w-full" method="POST" action="{{ route('marcas.store') }}">
                     @csrf
