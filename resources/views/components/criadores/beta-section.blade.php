@@ -6,10 +6,9 @@
                 Fique por dentro da ENGAGE antes de todo mundo
             </div>
             <div class="text-[rgba(38,45,61,1)] font-Kufam text-xl font-normal text-center mt-[17px] max-md:max-w-full">
-                Lançamento exclusivo no dia <span class="font-bold">25 de Agosto de 2025 </span>.
-                <br class="max-md:hidden" /> Apenas <span class="font-black">25 criadores de conteúdo</span>
-                terão acesso antecipado à versão BETA. Não perca esta chance
-                ÚNICA!
+                Estamos a construir a plataforma que vai elevar o trabalho dos criadores de conteúdo em Angola a um novo
+                nível <br class="max-md:hidden" />— e
+                queremos alguns criadores ao nosso lado <span class="font-black">desde o início.</span>
             </div>
         </div>
         <div class="w-full flex justify-center mt-[58px] max-md:max-w-full max-md:mt-10">
@@ -22,8 +21,8 @@
                     Seja um dos primeiros criadores na ENGAGE
                 </div>
                 <div class="text-[rgba(38,45,61,1)] font-Inter text-sm font-medium mt-[20px]">
-                    Preencha o formulário e junte-se aos 25 criadores que terão acesso VIP, sem custos, apenas
-                    oportunidade.
+                    Preencha o formulário abaixo e ganhe acesso antecipado, destaque e prioridade nas primeiras
+                    campanhas.
                 </div>
                 <form class="w-full" method="POST" action="{{ route('criadores.store') }}">
                     @csrf
